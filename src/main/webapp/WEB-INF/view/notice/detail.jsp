@@ -163,7 +163,7 @@
 									<td>${n.writerId}</td>
 									<th>조회수</th>
 									<td>
-										<fmt:formatNumber type="number"  pattern="##,####" value="${n.hit}"></fmt:formatNumber>
+										<fmt:formatNumber type="number"  pattern="#,###" value="${n.hit}"></fmt:formatNumber>
 									</td>
 								</tr>
 								<tr>
